@@ -1,0 +1,13 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+html,
+body {font-family: "Hind", sans-serif;color: #212529;line-height: 1.5;background-color: #fff;}
+header{position: absolute;top:0;left: 50%;z-index: 100;transform: translateX(-50%);}
+header .navbar-bard{font-size: 36px;color:#fff;}
+header .navbar-bard i {font-size: 45px;color: #35a22c;}
+#navbarPort .nav-item{margin: 0px 10px;}
+#navbarPort .nav-item .nav-link{color:#fff;transition: all 0.5s;}
+#navbarPort .nav-item:hover .nav-link{color:#35a22c;}
+#navbarPort .nav-item::after{content: "";width: 0;height: 2px;background-color: #35a22c;display: block;transition: all 0.5s;}
+#navbarPort .nav-item:hover::after{width: 100%;}
+#navbarPort .nav-item.active .nav-link{color: #35a22c;}
+#navbarPort .nav-item.active::after{width: 100%;}
