@@ -1,9 +1,13 @@
 * {margin: 0;padding: 0;box-sizing: border-box;}
 html,
 body {font-family: "Hind", sans-serif;color: #212529;line-height: 1.5;background-color: #fff;}
+
+/* --------------------Header---------------------- */
 header{position: absolute;top:0;left: 50%;z-index: 100;transform: translateX(-50%);}
 header .navbar-bard{font-size: 36px;color:#fff;}
 header .navbar-bard i {font-size: 45px;color: #35a22c;}
+
+/* --------------------Navbar---------------------- */
 #navbarPort .nav-item{margin: 0px 10px;}
 #navbarPort .nav-item .nav-link{color:#fff;transition: all 0.5s;}
 #navbarPort .nav-item:hover .nav-link{color:#35a22c;}
@@ -12,6 +16,8 @@ header .navbar-bard i {font-size: 45px;color: #35a22c;}
 #navbarPort .nav-item.active .nav-link{color: #35a22c;}
 #navbarPort .nav-item.active::after{width: 100%;}
 
+/* --------------------Main---------------------- */
+/* --------------------Carousel---------------------- */
 .myCarousel .carousel-item{height: 100vh;}
 .myCarousel .myCarousel-caption {top: 50%;left: 50%;transform: translate(-50%,-50%);}
 .myCarousel .carousel-caption h5{font-size: 56px;line-height: 65px;}
@@ -21,3 +27,29 @@ header .navbar-bard i {font-size: 45px;color: #35a22c;}
 .myCarousel .carousel-indicators li{width: 13px;height: 13px;border-radius: 50%;border: none;}
 .myCarousel .carousel-indicators li.active{background-color: #35a22c;}
 .carousel-indicators{bottom: 10%;}
+
+/* --------------------Projects---------------------- */
+.projects__item {margin-top: 30px;border-radius: 1rem;box-shadow: 0 0 0.4rem rgba(0,0,0,0.13);}
+.projects__item p {color: #585858;}
+.projects__item .card-body {border: 1px solid transparent;border-radius: 0 0 1rem 1rem; transform: all 0.5s;}
+.projects__item:hover .card-body {border-color: #35a22c; border-color: transparent;}
+.projects__item:hover h3 {color: #35a22c;}
+.projects .nav-pills .nav-link {color: #1a1d2d;border: 1px solid #1a1d2d;margin: 0 5px;}
+.projects .nav-pills .nav-link.active, .projects .nav-pills .show > .nav-link {background-color: #35a22c;color: #fff;border-color: #35a22c;}
+
+/* --------------------Feature---------------------- */
+
+
+/* --------------------Award---------------------- */
+
+
+/* --------------------Footer---------------------- */
+footer {background: #222222;}
+footer a {color: #aaa}
+footer p {color:#aaa; margin: 0;}
+footer a:hover {text-decoration: none; color:#35a22c}
+.footer__main i { width: 42px;height: 42px; line-height: 42px; border-radius: 50%; border: 1px solid #454545; transition: all 0.5s;}
+.footer__main a {margin-right: 10px;}
+.footer__main a:last-child {margin-right: 0;}
+.footer__copies {border-top: 1px solid #454545;padding-top: 30px;margin-top: 30px;}
+.footer__main i:hover {border-color: #35a22c;}
